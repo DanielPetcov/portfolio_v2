@@ -22,12 +22,17 @@ body{
 .container{
     width: 100%;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home{
+    position: absolute;
+    top: 0;
+    left: 0;
     margin: 2rem 0 0 1rem;
     border-radius: 5px;
-    width: fit-content;
 }
 
 .home a{
@@ -44,15 +49,20 @@ body{
     color: var(--color-hover);
 }
 
-.main-info{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    transform: translate(-50%);
-}
-
 h1{
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
+.text{
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 700px) {
+    h1{
+        font-size: 3.4rem;
+    }
+
+    .text{
+        font-size: 1rem;
+    }
+}

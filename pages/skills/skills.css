@@ -74,7 +74,7 @@ li:not(:last-child){
     }
 
     .card{
-        margin-top: 4rem;
+        margin-top: 6rem;
         width: 70vw;
     }
 }

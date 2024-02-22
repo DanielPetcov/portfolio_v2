@@ -192,6 +192,13 @@ body{
     .side-bar li{
         width: 100%;
     }
+
+    .side-bar li:not(:first-child){
+        a{ 
+            display: block;
+            min-width: 100%;
+        }
+    }
     
     .side-bar li:not(:last-child){
         margin-bottom: .2rem;

@@ -11,12 +11,45 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/e1cea52f6f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>About me</title>
   </head>
   <body>
     <div class="container roboto-medium">
-      <div class="home">
-        <a href="../../index.html">Home</a>
+      <div class="side-bar" id="navbar">
+        <ul>
+          <li class="menu-home" id="menu-home">
+            <a href="../../index.html" class="side-bar-links home"
+              ><span class="home">Home</span></a
+            >
+            <span
+              ><i class="fa-solid fa-bars menu-icon" id="menu-icon"></i
+            ></span>
+          </li>
+          <li class="menu-links" id="menu-links">
+            <a href="#" class="side-bar-links"><span>About me</span></a>
+          </li>
+          <li class="menu-links" id="menu-links">
+            <a
+              href="../../pages/education/education.html"
+              class="side-bar-links"
+              ><span>Education/Work</span></a
+            >
+          </li>
+          <li class="menu-links" id="menu-links">
+            <a href="../../pages/projects/projects.html" class="side-bar-links"
+              ><span>Projects</span></a
+            >
+          </li>
+          <li class="menu-links" id="menu-links">
+            <a href="../../pages/skills/skills.html" class="side-bar-links"
+              ><span>Skills</span></a
+            >
+          </li>
+        </ul>
       </div>
       <div class="card">
         <p class="header">
@@ -33,12 +66,15 @@
         <p>
           Programming is my passion and that's why, currently, I am studying
           Information Technology at the university and learning programming by
-          myself. <br />I am more interested in Backend Developement, but I am
-          aiming to become a Full Stack developer in the future.
+          myself.
+          <br />
+          <br />I am more interested in Backend Developement, but I am aiming to
+          become a Full Stack developer in the future.
         </p>
         <br />
         <p>Also, I like to read in my free time and learn something new.</p>
       </div>
     </div>
+    <script src="aboutme.js"></script>
   </body>
 </html>
